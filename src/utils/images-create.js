@@ -20,8 +20,7 @@ class Images{
     crateRandomImage = () => { 
         let numImg = Random(1, 123)  
         let img = document.createElement('img')
-        img.src = `https://randomfox.ca/images/${numImg}.jpg`
-    
+        img.dataset.src = `https://randomfox.ca/images/${numImg}.jpg`
         img.className ="img-random"
     
         this.imgContainer.appendChild(img)
@@ -34,9 +33,8 @@ class Images{
     accountant = (num) => {
         if(this.i >= 0){
             this.i += num
-            
         }else{
-            i = 0
+            this.i = 0
         }
         this.accountantContainer.innerText = this.i
     }
