@@ -23,18 +23,8 @@
 }
 
 .img-random:hover{
-    /* filter: blur(2px); */
     filter: saturate(.7);
 }
-.loading{
-    width: 100%;
-    height: 100%;
-    /* background-color: #a7b4b4; */
-    background-color: red;
-    padding: .5em;
-}
-
-
 .accountant, .title{
     color: Coral;
 }
