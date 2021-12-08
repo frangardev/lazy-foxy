@@ -11,7 +11,7 @@
     margin-bottom: 20px;
 }
 .img__container{
-    column-count: 3;
+    column-count: 2;
     column-gap: 1em;
 }
 
@@ -32,4 +32,11 @@
 }
 .usr{
     color: #64C9CF;
+}
+
+@media (min-width: 500px) {
+    .img__container{
+        column-count: 1;
+        column-gap: 1em;
+    }
 }
