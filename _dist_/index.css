@@ -1,0 +1,40 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+
+.app__container{
+    /* width: 80%; */
+    margin: 30px auto;
+}
+.controls{
+    margin-bottom: 20px;
+}
+.img__container{
+    column-count: 2;
+    column-gap: 1em;
+}
+
+.img-random{
+    display: inline-block;
+    margin: 0 auto 1em;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img-random:hover{
+    filter: saturate(.7);
+}
+.accountant, .title{
+    color: Coral;
+}
+.usr{
+    color: #64C9CF;
+}
+
+@media (min-width: 500px) {
+    .img__container{
+        column-count: 3;
+        column-gap: 1em;
+    }
+}
