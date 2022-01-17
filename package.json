@@ -1,5 +1,5 @@
 {
-  "homepage": "https://frangardev.github.io/lazy-foxy",
+  "homepage": "https://frangardev.com/lazy-foxy",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

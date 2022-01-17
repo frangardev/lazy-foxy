@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://frangardev.github.io/lazy-foxy',
+    baseUrl: 'https://frangardev.com/lazy-foxy',
   },
 }
